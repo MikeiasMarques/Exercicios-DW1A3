@@ -1,0 +1,51 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+ 
+    padding: 1em;
+    border: 1px solid #111111;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
+input, textarea {
+    background:#afacac;
+    font: 1em sans-serif;
+    width: 400px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #111111;
+}
+
+input:focus, textarea:focus {
+    
+    border-color: #6495ED;
+}
+
+textarea {
+    padding:7px 7px;
+    width:400px;
+    background:#afacac;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+
+.button {
+    
+    padding-left: 170px; 
+}
+button {
+    margin-left: .5em;
+}
